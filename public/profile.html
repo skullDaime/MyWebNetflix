@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+</head>
+<body>
+    <div id="container">
+    <script>    
+        try
+        {
+            $("#container").append("<div class='row'>");
+                $("#container").append("<div class='col-12'>");
+                    $("#container").append("<h1>Quem Está assisido?</h1>");
+                $("#container").append("</div>");
+            $("#container").append("</div>");
+            $("#container").append("<div class='row'>");
+                $('#container').append("<a href='/home'><div class='col-3'> <img class='img-profile' width='100' height='100' src='static/img/gerald.jpg'/><p>Caio</p> </div></a>");
+                $('#container').append("<a href='/home'><div class='col-3'> <img class='img-profile' width='100' height='100' src='static/img/gerald.jpg'/><p>José</p> </div></a>");
+                $('#container').append("<a href='/home'><div class='col-3'> <img class='img-profile' width='100' height='100' src='static/img/gerald.jpg'/><p>Selma</p> </div></a>");
+                $('#container').append("<a href='/home'><div class='col-3'> <img class='img-profile' width='100' height='100' src='static/img/gerald.jpg'/><p>Kids</p> </div></a>");
+            $("#container").append("</div>");
+        }
+        catch{
+            $("#cont").apend("Erro ao capturar dados de usário");
+        }
+    </script>
+    </div>
+</body>
+</html>
